@@ -1,6 +1,6 @@
 cask "pinch" do
-  version "1.0.3"
-  sha256 "a231b1b8d384e660a646a18f14cca00bdfc386443a2667c84b6469390ac8cdbe"
+  version "1.0.4"
+  sha256 "8e975dbb5f70dbadddce1e177fe59c6075b7654590d7fee92a4d36b178525f3f"
 
   url "https://github.com/RainnWorks/pinch/releases/download/v#{version}/Pinch-#{version}.dmg"
   name "Pinch"
