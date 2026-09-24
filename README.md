@@ -1,8 +1,11 @@
 # RainnWorks Homebrew tap
 
 ```sh
-brew install --cask rainnworks/tap/pinch
+brew tap rainnworks/tap && brew trust rainnworks/tap
+brew install --cask pinch
 ```
+
+Homebrew 7 and later loads a third-party tap only after `brew trust`.
 
 | Name | What | Kind |
 |---|---|---|
